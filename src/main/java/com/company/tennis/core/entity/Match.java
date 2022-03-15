@@ -6,12 +6,14 @@ public class Match {
     private Joueur vainqueur;
     private Joueur finaliste;
     private Epreuve epreuve;
+    private Score score;
+
 
     public Long getId() {
         return id;
     }
 
-    public void setId( Long id ) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -19,7 +21,7 @@ public class Match {
         return vainqueur;
     }
 
-    public void setVainqueur( Joueur vainqueur ) {
+    public void setVainqueur(Joueur vainqueur) {
         this.vainqueur = vainqueur;
     }
 
@@ -27,7 +29,7 @@ public class Match {
         return finaliste;
     }
 
-    public void setFinaliste( Joueur finaliste ) {
+    public void setFinaliste(Joueur finaliste) {
         this.finaliste = finaliste;
     }
 
@@ -35,7 +37,15 @@ public class Match {
         return epreuve;
     }
 
-    public void setEpreuve( Epreuve epreuve ) {
+    public void setEpreuve(Epreuve epreuve) {
         this.epreuve = epreuve;
+    }
+
+    public Score getScore() {
+        return score;
+    }
+
+    public void setScore(Score score) {
+        this.score = score;
     }
 }

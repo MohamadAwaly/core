@@ -18,4 +18,8 @@ public class JoueurService {
     public void getJoueur( Long id){
         joueurRepository.getById(  id );
     }
+
+    public void listJoueur (){
+        joueurRepository.list();
+    }
 }

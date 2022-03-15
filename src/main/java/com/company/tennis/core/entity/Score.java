@@ -7,6 +7,7 @@ public class Score {
     private Byte set3;
     private Byte set4;
     private Byte set5;
+    private Match match;
 
     public Long getId() {
         return id;
@@ -54,5 +55,13 @@ public class Score {
 
     public void setSet5( Byte set5 ) {
         this.set5 = set5;
+    }
+
+    public Match getMatch() {
+        return match;
+    }
+
+    public void setMatch(Match match) {
+        this.match = match;
     }
 }
