@@ -7,13 +7,6 @@ import com.company.tennis.core.service.TournoiService;
 public class Cours {
 
     public static void main( String... args ) {
-//        JoueurService joueurService = new JoueurService();
-//        Joueur noah = new Joueur();
-//        noah.setNom( "Noah" );
-//        noah.setPrenom( "Yannick" );
-//        noah.setSexe( 'H' );
-//        joueurService.creatJoueur(noah);
-//        System.out.println("L'identifiant du joueur créé est " + noah.getId());
 
         MatchService matchService = new MatchService();
         Match match = new Match();

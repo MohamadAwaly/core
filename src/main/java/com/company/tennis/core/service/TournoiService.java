@@ -15,7 +15,7 @@ public class TournoiService {
         tournoiRepository.create( tournoi );
     }
 
-    public void getTournoi ( Long id){
-        tournoiRepository.getById(  id );
+    public Tournoi getTournoi ( Long id){
+        return tournoiRepository.getById(  id );
     }
 }
